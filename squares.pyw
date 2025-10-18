@@ -39,6 +39,7 @@ canvas.config(width=600, height=400, bg='black')
 canvas.pack()
 
 thread = Th(target=makesqrs)
+thread.daemon = True
 thread.start()
 
 root.mainloop()

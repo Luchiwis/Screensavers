@@ -23,6 +23,9 @@ but1.place(x=40, y=77)
 but1 = CTkButton(root, width=50, text='Squares', font=CTkFont('Arial', 25, 'bold'), text_color='black', command=lambda: root.choose('squares'))
 but1.place(x=150, y=77)
 
+but1 = CTkButton(root, width=50, text='Pong', font=CTkFont('Arial', 25, 'bold'), text_color='black', command=lambda: root.choose('pong'))
+but1.place(x=40, y=120)
+
 # root.bind('<Button>', print) x=53, y=77 - x=172, y=77
 
 root.mainloop()
